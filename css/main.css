@@ -1,0 +1,169 @@
+/***** BASE STYLES *****/
+body   {
+    font-family: 'montserrat';
+    color: #000000;
+    }
+     #menu, #locations, #gallery, #reviews, #content, #footer {
+        height: 600px;
+    }
+
+    #about  {
+        height: 300px;
+    }
+
+    @font-face{
+        font-family: 'Wisdom Script';
+        src: url('../fonts/wisdom-script.otf') format('opentype');
+    }
+    
+    body {
+        font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    }
+
+   
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    float: left;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width    {
+    width: 400px;
+    float: left;
+}
+
+.container{
+	width: 1250px;
+	margin: 0 auto;
+}
+
+/**********HEADER**********/
+
+
+h1  {
+    font-family: Montserrat;
+    font-size: 30px;
+}
+
+h1 span{
+    color: #77a466;
+}
+
+header nav ul li {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    color: #77a466;
+    display: inline;
+    margin: 10px;
+}
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+}
+
+
+
+
+
+/***** ABOUT*****/
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: Montserrat;
+    font-size: 18pt;
+    padding-left: 20pt;
+    color: #77a466;
+    text-transform: uppercase;
+    font-variant: bold;
+}
+ 
+#about p {
+    font-size: 16pt;
+    color: black;
+    line-height: 25pt;
+    padding-left: 20pt;
+    padding-right: 20pt;
+}
+
+.border {
+    margin-bottom: -5px;
+}
+
+.border2    {
+    margin-top: -17px;
+}
+
+/************WORK SECTION CSS CODE******************/
+
+
+
+#work h3{
+    font-family: Montserrat;
+    font-size: 12pt;
+    color: black;
+    
+}
+
+.specials   {
+    color: #77a466;
+    font-size: 16px;
+    padding: 10px;
+    border-top: 2px solid lightgray;
+    border-right: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+}
+
+.reviews    {
+    font-size: 16px;
+    padding: 10px;
+    padding-bottom: 3px;
+    border-top: 2px solid lightgray;
+    border-right: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+}
+
+.contact    {
+    font-size: 16px;
+    padding: 10px;
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    color: #333;
+}
+
+
+/************CONTACT SECTION CSS CODE******************/
+
+
+
+
+
+/************FOOTER SECTION CSS CODE******************/
+
+.last-piece  {
+    font-family: Montserrat bold;
+    font-size: 16px;
+    clear: both;
+    text-align: center;
+    font-variant: 900;
+    text-transform: uppercase;
+}
+
+.last-piece span    {
+    color: #77a466;
+    font-family: 'Viner Hand' ICD;
+    font-size: 16pt;
+    text-transform: lowercase;
+}
